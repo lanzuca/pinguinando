@@ -175,8 +175,11 @@ img {
 }
 
 @media(max-width:650px) {
-  .custom-controls{
+  .custom-controls li{
     display: none;
+  }
+  .custom-controls li.active{
+    display: block;
   }
   .header-menu {
   display: none;  
