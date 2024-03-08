@@ -136,7 +136,9 @@ img {
   transform: scale(1);
 }
 
-
+.aptenodytes, .spheniscus, .pygoscelis, .eudyptula, .eudyptes {
+    margin-bottom: 80px;
+}
 .main-profile {
   margin-top: 40px;
   display: grid;
@@ -149,7 +151,7 @@ img {
  margin-bottom: 10px;
 }
 
-@media(max-width:800px){ 
+@media(max-width:990px){ 
 
   .font-1-l {
     font: 400 1.125rem/1.35 "Poppins", sans-serif;
@@ -192,6 +194,9 @@ img {
     grid-template-columns: 1fr;
     gap: 10px;
   }
+  .aptenodytes, .spheniscus, .pygoscelis, .eudyptula, .eudyptes {
+    margin-bottom: 40px;
+}
 
 .main {
   grid-template-columns: 1fr;
